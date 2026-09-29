@@ -164,3 +164,9 @@ html { overflow-x: clip; }
   .bar .wrap { flex-wrap: wrap; height: auto; padding: 10px 0; row-gap: 6px; }
   .bar nav { margin-left: 0; width: 100%; gap: 18px; font-size: 14px; }
 }
+@media (max-width: 600px) {
+  .phones { gap: 8px; }
+  .phone { width: 29vw; padding: 5px; border-radius: 22px; }
+  .phone img { border-radius: 18px; }
+  .caption { font-size: 12px; }
+}
