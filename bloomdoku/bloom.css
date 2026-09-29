@@ -160,3 +160,7 @@ details p { margin: 10px 0 2px; }
   .brand { font-size: 19px; } .brand img { width: 32px; height: 32px; }
 }
 html { overflow-x: clip; }
+@media (max-width: 440px) {
+  .bar .wrap { flex-wrap: wrap; height: auto; padding: 10px 0; row-gap: 6px; }
+  .bar nav { margin-left: 0; width: 100%; gap: 18px; font-size: 14px; }
+}

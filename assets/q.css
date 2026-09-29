@@ -145,3 +145,7 @@ footer.site a:hover { color: var(--ink); }
   .logo svg { width: 28px; height: 28px; }
 }
 html { overflow-x: clip; }
+@media (max-width: 440px) {
+  .nav .wrap { flex-wrap: wrap; height: auto; padding: 12px 0; row-gap: 6px; }
+  .nav nav { margin-left: 0; width: 100%; gap: 18px; font-size: 14px; }
+}
