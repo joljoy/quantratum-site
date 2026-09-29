@@ -44,3 +44,7 @@ summary { cursor: pointer; font-weight: 700; color: var(--ink); }
 .product img { width: 84px; height: 84px; border-radius: 20px; box-shadow: 0 6px 18px rgba(0,0,0,.12); }
 .product h3 { margin: 0; color: var(--ink); font-size: 22px; }
 .product p { margin: 4px 0 0; }
+header { flex-wrap: wrap; }
+@media (max-width: 560px) {
+  nav { margin-left: 0; width: 100%; gap: 18px; }
+}
