@@ -155,3 +155,8 @@ details p { margin: 10px 0 2px; }
   *, *::before, *::after { animation: none !important; transition: none !important; }
   .reveal { opacity: 1; transform: none; }
 }
+@media (max-width: 420px) {
+  .bar nav { gap: 10px; font-size: 13.5px; }
+  .brand { font-size: 19px; } .brand img { width: 32px; height: 32px; }
+}
+html { overflow-x: clip; }
