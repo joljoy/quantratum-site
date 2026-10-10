@@ -80,7 +80,7 @@ h2 { font-size: clamp(32px, 5vw, 54px); line-height: 1.05; margin: 10px 0 18px; 
 .tags span { background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.25); padding: 5px 12px; border-radius: 99px; font-size: 13px; font-weight: 600; }
 .showcase .go { display: inline-flex; gap: 8px; align-items: center; font-weight: 700; background: #fff; color: #7b2ff7; padding: 12px 20px; border-radius: 14px; }
 .phones { position: relative; height: 470px; }
-.phone { position: absolute; width: 215px; aspect-ratio: 414/900; border-radius: 36px; padding: 9px; background: #0b0b12;
+.phone { position: absolute; width: 215px; aspect-ratio: 1125/2436; border-radius: 36px; padding: 9px; background: #0b0b12;
   box-shadow: 0 30px 60px rgba(0,0,0,.45), inset 0 0 0 2px rgba(255,255,255,.12); }
 .phone img { width: 100%; height: 100%; border-radius: 28px; display: block; object-fit: cover; }
 .phone.a { left: 8%; top: 10px; transform: rotate(-7deg); }
